@@ -149,6 +149,7 @@
     <ClCompile Include="arithmetic.c" />
     <ClCompile Include="char.c" />
     <ClCompile Include="func_pointer.c" />
+    <ClCompile Include="LinkList.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="struct.c" />
     <ClCompile Include="support.c" />
