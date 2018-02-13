@@ -45,5 +45,11 @@
     <ClCompile Include="LinkList.c">
       <Filter>源文件\c_for_study</Filter>
     </ClCompile>
+    <ClCompile Include="linklist2.c">
+      <Filter>源文件\c_for_study</Filter>
+    </ClCompile>
+    <ClCompile Include="tree.c">
+      <Filter>源文件\c_for_study</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

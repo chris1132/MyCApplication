@@ -150,10 +150,12 @@
     <ClCompile Include="char.c" />
     <ClCompile Include="func_pointer.c" />
     <ClCompile Include="LinkList.c" />
+    <ClCompile Include="linklist2.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="struct.c" />
     <ClCompile Include="support.c" />
     <ClCompile Include="storage_class.c" />
+    <ClCompile Include="tree.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

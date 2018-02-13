@@ -36,15 +36,15 @@ linklist createT(int n) {
 }
 
 
-void main() {
-	int n;
-	printf("input the size of list:");
-	scanf_s("%d", &n);
-	linklist node;
-	LNode *start;
-	//node = createT(n);
-	node = createH(n);
-	for (start = node->next; start != NULL;start=start->next) {
-		printf("%d ",start->data);
-	}
-}
+//void main() {
+//	int n;
+//	printf("input the size of list:");
+//	scanf_s("%d", &n);
+//	linklist node;
+//	LNode *start;
+//	//node = createT(n);
+//	node = createH(n);
+//	for (start = node->next; start != NULL;start=start->next) {
+//		printf("%d ",start->data);
+//	}
+//}
