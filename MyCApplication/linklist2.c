@@ -11,7 +11,6 @@ linklist createLinkByTail(int n) {
 
 	l = (Node*)malloc(sizeof(Node));
 	h = l;
-	h->data = NULL;
 	for (int i = 0; i < n; i++) {
 		p = (Node *)malloc(sizeof(Node));
 		printf_s("please input the data of the link[%d]:", i);
@@ -58,12 +57,12 @@ int getNumRetInt(char* str) {
 	return n;
 }
 
-void main() {
-	int n = getNumRetInt("please input the size of the link:");
-	Node *node = createLinkByTail(n);
-	printLink(node);
-
-	int delNum = getNumRetInt("please input the num for del:");
-	delLinkByData(node, delNum);
-	printLink(node);
-}
+//void main() {
+//	int n = getNumRetInt("please input the size of the link:");
+//	Node *node = createLinkByTail(n);
+//	printLink(node);
+//
+//	int delNum = getNumRetInt("please input the num for del:");
+//	delLinkByData(node, delNum);
+//	printLink(node);
+//}

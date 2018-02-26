@@ -13,43 +13,55 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\c_for_study">
-      <UniqueIdentifier>{ae80ddbb-3d05-444e-a832-64d4357f48e6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\c_for_study\leetcode_practice">
+    <Filter Include="源文件\leetcode_practice">
       <UniqueIdentifier>{ae46ad19-2d7c-44ee-982c-0b3e585617c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\linkList">
+      <UniqueIdentifier>{745c9995-ef49-4e3f-9bfb-071ee6d7b3bf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pointer.c">
-      <Filter>源文件\c_for_study</Filter>
-    </ClCompile>
-    <ClCompile Include="support.c">
-      <Filter>源文件\c_for_study</Filter>
-    </ClCompile>
-    <ClCompile Include="storage_class.c">
-      <Filter>源文件\c_for_study</Filter>
-    </ClCompile>
     <ClCompile Include="arithmetic.c">
-      <Filter>源文件\c_for_study</Filter>
-    </ClCompile>
-    <ClCompile Include="func_pointer.c">
-      <Filter>源文件\c_for_study</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="char.c">
-      <Filter>源文件\c_for_study</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.c">
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="struct.c">
-      <Filter>源文件\c_for_study</Filter>
+      <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LinkList.c">
-      <Filter>源文件\c_for_study</Filter>
-    </ClCompile>
-    <ClCompile Include="linklist2.c">
-      <Filter>源文件\c_for_study</Filter>
+    <ClCompile Include="support.c">
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tree.c">
-      <Filter>源文件\c_for_study</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="funcPointer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="storageClass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.c">
+      <Filter>源文件\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="linklist2.c">
+      <Filter>源文件\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList3.c">
+      <Filter>源文件\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList4.c">
+      <Filter>源文件\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateLinkList.c">
+      <Filter>源文件\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintfLink.c">
+      <Filter>源文件\linkList</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
