@@ -154,8 +154,11 @@
     <ClCompile Include="linklist2.c" />
     <ClCompile Include="LinkList3.c" />
     <ClCompile Include="LinkList4.c" />
+    <ClCompile Include="LinkList5.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="PrintfLink.c" />
+    <ClCompile Include="stack1.c" />
+    <ClCompile Include="stack2.c" />
     <ClCompile Include="struct.c" />
     <ClCompile Include="support.c" />
     <ClCompile Include="storageClass.c" />

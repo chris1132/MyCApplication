@@ -5,12 +5,12 @@ typedef struct Node {
 	struct Node *next;
 }Node;
 
-Node* createLinkByT(int from, int to);
+Node* createLinkByT(int n);
 
 void pLink(Node *node);
 
 //void main() {
-//	Node *L = createLinkByT(1,5);
+//	Node *L = createLinkByT(5);
 //	pLink(L);
 //	Node *q = L->next,*pre;
 //	L->next = NULL;

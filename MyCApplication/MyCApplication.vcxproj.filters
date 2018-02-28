@@ -19,6 +19,9 @@
     <Filter Include="源文件\linkList">
       <UniqueIdentifier>{745c9995-ef49-4e3f-9bfb-071ee6d7b3bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\stack">
+      <UniqueIdentifier>{4b3bc07e-e8b3-4910-9d28-df06e10bdf96}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arithmetic.c">
@@ -62,6 +65,15 @@
     </ClCompile>
     <ClCompile Include="PrintfLink.c">
       <Filter>源文件\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList5.c">
+      <Filter>源文件\linkList</Filter>
+    </ClCompile>
+    <ClCompile Include="stack1.c">
+      <Filter>源文件\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="stack2.c">
+      <Filter>源文件\stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
