@@ -47,7 +47,8 @@ void pop(Sqstack *stack) {
 	if (!isEmptyStack(stack)) {
 		Node *p = stack->top;
 		stack->top = p->next;
-		p->next = NULL;
+		//p->next = NULL;
+		free(p);
 	}
 }
 
@@ -56,18 +57,18 @@ int isEmptyStack(Sqstack *stack) {
 	else return 0;
 }
 
-void main() {
-	Sqstack *stack = createStack();
-	if (stack) {
-		for (int i = 0; i < 10; i++) {
-			if (push(stack, i)) printf("success:%d\n", i);
-		}
-		
-		traverseStack(stack);
-		pop(stack);
-		traverseStack(stack);
-	}
-}
+//void main() {
+//	Sqstack *stack = createStack();
+//	if (stack) {
+//		for (int i = 0; i < 10; i++) {
+//			if (push(stack, i)) printf("success:%d\n", i);
+//		}
+//		
+//		traverseStack(stack);
+//		pop(stack);
+//		traverseStack(stack);
+//	}
+//}
 
 
 
